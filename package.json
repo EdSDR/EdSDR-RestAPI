@@ -1,0 +1,27 @@
+{
+  "name": "edsdr-restapi",
+  "version": "1.0.0",
+  "description": "Fully functional REST API. Made with Node.js, Express and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdSDR/EdSDR-RestAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdSDR/EdSDR-RestAPI/issues"
+  },
+  "homepage": "https://github.com/EdSDR/EdSDR-RestAPI#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
